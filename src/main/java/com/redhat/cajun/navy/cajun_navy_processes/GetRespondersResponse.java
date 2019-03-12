@@ -6,12 +6,25 @@ package com.redhat.cajun.navy.cajun_navy_processes;
 
 public class GetRespondersResponse implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public GetRespondersResponse() {
-    }
+	private java.util.List<com.redhat.cajun.navy.rules.model.Responder> responders;
 
+	public GetRespondersResponse() {
+	}
 
+	public java.util.List<com.redhat.cajun.navy.rules.model.Responder> getResponders() {
+		return this.responders;
+	}
 
+	public void setResponders(
+			java.util.List<com.redhat.cajun.navy.rules.model.Responder> responders) {
+		this.responders = responders;
+	}
+
+	public GetRespondersResponse(
+			java.util.List<com.redhat.cajun.navy.rules.model.Responder> responders) {
+		this.responders = responders;
+	}
 
 }
