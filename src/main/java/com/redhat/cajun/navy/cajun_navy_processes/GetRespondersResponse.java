@@ -27,4 +27,9 @@ public class GetRespondersResponse implements java.io.Serializable {
 		this.responders = responders;
 	}
 
+	@Override
+	public String toString() {
+		return "GetRespondersResponse [responders=" + responders + "]";
+	}
+
 }
