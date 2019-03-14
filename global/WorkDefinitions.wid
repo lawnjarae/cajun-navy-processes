@@ -89,5 +89,14 @@
     "displayName" : "Milestone",
     "icon" : "defaultmilestoneicon.png",
     "category" : "Milestone"
+    ],
+    
+    [
+    "name" : "GetResponders",
+    "parameters" : [
+    ],
+    "displayName" : "GetResponders",
+    "icon" : "defaultservicenodeicon.png",
+    "category" : "CustomWIH"
     ]
 ]
