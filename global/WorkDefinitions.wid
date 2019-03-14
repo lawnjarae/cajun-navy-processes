@@ -89,5 +89,15 @@
     "displayName" : "Milestone",
     "icon" : "defaultmilestoneicon.png",
     "category" : "Milestone"
+    ],
+
+   [
+    "name" : "ResponderService",
+    "parameters" : [
+        "Path" : new StringDataType()
+    ],
+    "displayName" : "ResponderService",
+    "icon" : "defaultservicenodeicon.png",
+    "category" : "Custom WIH"
     ]
 ]
