@@ -1,0 +1,49 @@
+[
+        [
+            "name" : "Java",
+            "displayName" : "Java",
+            "category" : "java-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.java.JavaHandlerWorkItemHandler(\"ksession\")",
+            "documentation" : "java-workitem/index.html",
+
+            "parameters" : [
+                                "Class" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:java-workitem:7.18.0.Final"
+
+            ],
+            "icon" : "Java.png"
+
+        ]
+    ,[
+            "name" : "JavaInvocation",
+            "displayName" : "JavaInvocation",
+            "category" : "java-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.java.JavaInvocationWorkItemHandler()",
+            "documentation" : "java-workitem/index.html",
+
+            "parameters" : [
+                                "Parameters" : new StringDataType()
+                ,"Class" : new StringDataType()
+                ,"Object" : new StringDataType()
+                ,"Method" : new StringDataType()
+                ,"ParameterTypes" : new StringDataType()
+
+            ],
+            "results" : [
+                                "Result" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:java-workitem:7.18.0.Final"
+
+            ],
+            "icon" : "JavaInvocation.png"
+
+        ]
+
+]
