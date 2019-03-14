@@ -92,9 +92,7 @@
     ],
     
     [
-    "name" : "GetResponders",
-    "parameters" : [
-    ],
+    "name" : "GetResponders",,
     "displayName" : "GetResponders",
     "icon" : "defaultservicenodeicon.png",
     "category" : "CustomWIH"
