@@ -89,15 +89,5 @@
     "displayName" : "Milestone",
     "icon" : "defaultmilestoneicon.png",
     "category" : "Milestone"
-    ],
-    
-    [
-    "name" : "GetResponders",
-    "parameters" : [
-        "EndpointPath" : new StringDataType()
-    ],
-    "displayName" : "GetResponders",
-    "icon" : "defaultservicenodeicon.png",
-    "category" : "CustomWIH"
     ]
 ]
