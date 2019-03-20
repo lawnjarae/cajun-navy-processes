@@ -3,22 +3,6 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-developer-repository</id>
-        <url>http://jboss-developer.github.io/temp-maven-repo/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>snapshots-repo</id>
-        <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>central</id>
         <url>https://repo.maven.apache.org/maven2</url>
         <source>PROJECT</source>
@@ -75,6 +59,14 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>jboss-developer-repository</id>
+        <url>http://jboss-developer.github.io/temp-maven-repo/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>geo</id>
         <url>http://repo.boundlessgeo.com/main/</url>
         <source>SETTINGS</source>
@@ -93,6 +85,14 @@
       <metadata>
         <id>jboss-developer-plugin-repository</id>
         <url>http://jboss-developer.github.io/temp-maven-repo/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>snapshots-repo</id>
+        <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
