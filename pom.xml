@@ -66,13 +66,13 @@
 		</dependency>
 	</dependencies>
 
-	<distributionManagement>
+	<!-- <distributionManagement>
 		<repository>
 			<id>team.nexus.releases</id>
 			<name>Red Hat Cajun Navy Demo Nexus Repository</name>
 			<url>https://nexus-nexus.apps.753d.openshift.opentlc.com/nexus/content/repositories/releases/</url>
 		</repository>
-	</distributionManagement>
+	</distributionManagement> -->
 
 	<build>
 		<plugins>
